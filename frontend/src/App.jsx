@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import Users from "./pages/Users";
-import Home from "./pages/Home";
+import NavBar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
 
 function App() {
     return (
         <div>
-            <Home />  
-
+            <NavBar />
+            <Home />    
+            <Footer />
         </div>
     );
 }
