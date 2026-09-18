@@ -1,0 +1,13 @@
+:root {
+  --jcb-yellow: #FFCC00;
+  --jcb-dark: #1A1A1A;
+  --jcb-black: #111111;
+  --jcb-white: #FFFFFF;
+  --jcb-light: #FFF4BF;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color: var(--jcb-white);
+}
