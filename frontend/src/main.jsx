@@ -6,18 +6,21 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
 import About from './pages/About/About.jsx';
 import Contact from './pages/Contact/Contact.jsx';
-import Matchine from './pages/Matchine/Matchine.jsx';
+import Machine from './pages/Machine/Machine.jsx';
 import Services from './pages/Services/Services.jsx';
+import Login from './pages/Login/Login.jsx';
 
 const router = createBrowserRouter([
-  {path: "/",element: <App />,children: [
-      {index: true,element: <Home />},
+  {path: "/",element: <App />,
+    children: [
+      {path: "/",element: <Home />},
       {path: "about",element: <About />},
       {path: "contact",element: <Contact />},
-      {path: "matchine",element: <Matchine />},
-      {path: "services",element: <Services />}
+      {path: "machine",element: <Machine />},
+      {path: "services",element: <Services />},
     ]
-  }
+  },
+  {path: "login",element: <Login />},
 ]);
 
 

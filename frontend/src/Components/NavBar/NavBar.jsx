@@ -16,10 +16,16 @@ function NavBar() {
 
         <Link to="/about">About</Link>
 
+        <Link to="/machine">Machine</Link>
+
         <Link to="/services">Services</Link>
 
         <Link to="/contact">Contact</Link>
 
+      </div>
+
+      <div className="button-container">
+        <Link to="/login">Login</Link>
       </div>
 
     </nav>
