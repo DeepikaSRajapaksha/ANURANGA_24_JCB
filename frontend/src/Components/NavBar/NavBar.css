@@ -2,27 +2,58 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
-  background-color: #f5c400;
+  padding: 0px 20px;
+  background-color: #000000;
+  margin : 10px;
+  border-radius: 10px;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  display: block;
 }
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: var(--jcb-yellow);
   font-weight: 500;
   transition: 0.3s;
+  font-size: 16px;
 }
 
 .nav-links a:hover {
-  color: white;
+  color: rgb(247, 240, 24);
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--jcb-yellow);
+  color: var(--jcb-black);
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.button-container button:hover {
+  background-color: rgb(247, 240, 24);
 }
