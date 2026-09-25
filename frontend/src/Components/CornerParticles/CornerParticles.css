@@ -1,0 +1,60 @@
+.corner-particles {
+  position: fixed;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 10;
+
+  pointer-events: none;
+
+  overflow: hidden;
+}
+
+
+/* =========================
+   PARTICLE CORNERS
+========================= */
+
+.particle-corner {
+  position: absolute;
+
+  width: 400px;
+  height: 300px;
+
+  pointer-events: none;
+}
+
+
+/* =========================
+   BOTTOM RIGHT
+========================= */
+
+.bottom-right {
+  bottom : 0px;
+  right: 0;
+}
+
+
+/* =========================
+   BOTTOM LEFT
+========================= */
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+
+/* =========================
+   IMPORTANT
+========================= */
+
+.particle-corner canvas {
+  display: block;
+
+  width: 100% !important;
+  height: 100% !important;
+}
